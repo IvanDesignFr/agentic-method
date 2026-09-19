@@ -1,56 +1,50 @@
 # Skills
 
-Skills Claude Code disponibles dans ce projet, organisés par catégorie. Chaque skill est invocable via `/nom-du-skill`.
+Skills Claude Code organisés par catégorie. Chaque skill est invocable via `/nom-du-skill`.
 
 ## project-management/
-
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `pm-prd` | `/pm-prd` | Cree un PRD structure depuis une idee |
-| `pm-stories` | `/pm-stories` | Cree Epics et User Stories, publie sur GitHub Issues |
-| `github-issue-reader` | `/github-issue-reader` | Lit et analyse une issue GitHub |
+| Skill | Usage |
+|-------|-------|
+| `pm-prd` | Cree un PRD structure depuis une idee |
+| `pm-stories` | Cree Epics et User Stories, publie sur GitHub Issues |
+| `github-issue-reader` | Lit et analyse une issue GitHub |
 
 ## workflows/
-
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `architect` | `/architect` | Architecture technique depuis un PRD |
-| `api-designer` | `/api-designer` | Conception API REST/GraphQL + OpenAPI spec |
-| `database-designer` | `/database-designer` | Schema BDD, migrations, indexes |
-| `codebase-explainer` | `/codebase-explainer` | Analyse l'architecture du code existant |
-| `implementation-planner` | `/implementation-planner` | Plan d'implementation detaille |
-| `code-implementer` | `/code-implementer` | Implementation selon le plan valide |
-| `code-reviewer` | `/code-reviewer` | Review de code (3 passes) |
-
-## design-system/
-
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `ux-designer` | `/ux-designer` | Personas, user journeys, wireframes |
-| `ui-designer` | `/ui-designer` | Design system, composants UI, guidelines |
-| `figma-setup` | `/figma-setup` | Configure Code Connect Figma |
-| `figma-to-code` | `/figma-to-code` | Genere du code depuis une selection Figma |
+| Skill | Usage |
+|-------|-------|
+| `architect` | Architecture technique depuis un PRD |
+| `api-designer` | Conception API REST/GraphQL + OpenAPI spec |
+| `database-designer` | Schema BDD, migrations, indexes |
+| `codebase-explainer` | Analyse l'architecture du code existant |
+| `implementation-planner` | Plan d'implementation detaille |
+| `code-implementer` | Implementation selon le plan valide |
+| `code-reviewer` | Review de code (3 passes) |
+| `rodin` | Interlocuteur socratique pour discussions profondes |
 
 ## testing/
-
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `test-runner` | `/test-runner` | Ecrit et execute les tests |
-| `performance-auditor` | `/performance-auditor` | Audit Lighthouse, bundle size, Core Web Vitals |
-
-## security/
-
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `security-auditor` | `/security-auditor` | Audit OWASP Top 10, dependances, secrets |
-| `supabase-security` | `/supabase-security` | Audit securite complet Supabase (RLS, auth, buckets) |
+| Skill | Usage |
+|-------|-------|
+| `test-runner` | Ecrit et execute les tests |
+| `performance-auditor` | Audit Lighthouse, bundle size, Core Web Vitals |
 
 ## research/
+| Skill | Usage |
+|-------|-------|
+| `idea-brainstorm` | Session brainstorming creative |
+| `mom-test` | Challenge hypotheses produit (methode Mom Test) |
+| `validate-hypothesis` | Protocole validation hypotheses |
+| `multi-mind` | Debat multi-agents (6 IA) pour validation |
 
-| Skill | Commande | Usage |
-|-------|----------|-------|
-| `idea-brainstorm` | `/idea-brainstorm` | Session brainstorming creative |
-| `mom-test` | `/mom-test` | Challenge hypotheses produit (methode Mom Test) |
-| `validate-hypothesis` | `/validate-hypothesis` | Protocole validation hypotheses |
-| `multi-mind` | `/multi-mind` | Debat multi-agents (6 IA) pour validation |
-| `rodin` | `/rodin` | Interlocuteur socratique pour discussions profondes |
+## design-system/
+| Skill | Usage |
+|-------|-------|
+| `ux-designer` | Personas, user journeys, wireframes |
+| `ui-designer` | Design system, composants UI, guidelines |
+| `figma-setup` | Configure Code Connect Figma |
+| `figma-to-code` | Genere du code depuis une selection Figma |
+
+## security/
+| Skill | Usage |
+|-------|-------|
+| `security-auditor` | Audit OWASP Top 10, dependances, secrets |
+| `supabase-security` | Audit securite complet Supabase (RLS, auth, buckets) |
