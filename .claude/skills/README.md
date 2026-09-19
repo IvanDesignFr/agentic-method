@@ -1,8 +1,8 @@
 # Skills
 
-Skills Claude Code disponibles dans ce projet. Chaque skill est invocable via `/nom-du-skill`.
+Skills Claude Code disponibles dans ce projet, organisés par catégorie. Chaque skill est invocable via `/nom-du-skill`.
 
-## Project Management
+## project-management/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
@@ -10,7 +10,7 @@ Skills Claude Code disponibles dans ce projet. Chaque skill est invocable via `/
 | `pm-stories` | `/pm-stories` | Cree Epics et User Stories, publie sur GitHub Issues |
 | `github-issue-reader` | `/github-issue-reader` | Lit et analyse une issue GitHub |
 
-## Workflows Dev
+## workflows/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
@@ -20,8 +20,9 @@ Skills Claude Code disponibles dans ce projet. Chaque skill est invocable via `/
 | `codebase-explainer` | `/codebase-explainer` | Analyse l'architecture du code existant |
 | `implementation-planner` | `/implementation-planner` | Plan d'implementation detaille |
 | `code-implementer` | `/code-implementer` | Implementation selon le plan valide |
+| `code-reviewer` | `/code-reviewer` | Review de code (3 passes) |
 
-## Design
+## design-system/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
@@ -30,21 +31,21 @@ Skills Claude Code disponibles dans ce projet. Chaque skill est invocable via `/
 | `figma-setup` | `/figma-setup` | Configure Code Connect Figma |
 | `figma-to-code` | `/figma-to-code` | Genere du code depuis une selection Figma |
 
-## Testing & Quality
+## testing/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
 | `test-runner` | `/test-runner` | Ecrit et execute les tests |
 | `performance-auditor` | `/performance-auditor` | Audit Lighthouse, bundle size, Core Web Vitals |
 
-## Security
+## security/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
 | `security-auditor` | `/security-auditor` | Audit OWASP Top 10, dependances, secrets |
 | `supabase-security` | `/supabase-security` | Audit securite complet Supabase (RLS, auth, buckets) |
 
-## Research & Validation
+## research/
 
 | Skill | Commande | Usage |
 |-------|----------|-------|
