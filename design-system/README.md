@@ -4,10 +4,19 @@ Design token conventions, Figma Code Connect setup, and UI/UX skill prompts.
 
 ## Contents
 
-- `tokens.md` — Design token naming conventions and linting rules
-- `figma-code-connect.md` — How to map Figma components to code
-- `ui-skill.md` — UI designer skill prompt
-- `ux-skill.md` — UX designer skill prompt
-- `figma-to-code.md` — Figma-to-code workflow
+## Skills
 
-> Content to be ported from Skipper in follow-up tickets.
+| Skill | Usage |
+|-------|-------|
+| `skills/ui-designer/` | Define design system, UI components, and visual guidelines (`/ui-designer`) |
+| `skills/ux-designer/` | Design user experience with personas, journeys, and wireframes (`/ux-designer`) |
+| `skills/figma-setup/` | Configure Figma Code Connect to map components to code (`/figma-setup`) |
+| `skills/figma-to-code/` | Generate code from a Figma selection using existing components (`/figma-to-code`) |
+
+## Knowledge
+
+| Path | Description |
+|------|-------------|
+| `knowledge/figma/code-connect-guide.md` | Guide to setting up and maintaining Figma Code Connect |
+| `knowledge/figma/mcp-tools-reference.md` | Reference for Figma MCP tools available in Claude Code |
+| `knowledge/figma/tokens-mapping.md` | Design token naming conventions and Figma variable mapping |
